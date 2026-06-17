@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# YOLO weights
+models/*.pt
+*.pt
+
+# Outputs
+outputs/
+runs/
+
+# Large videos
+videos/
+*.mp4
+
+# Calibration generated files (optional)
+# calibration/homography_matrix.npy
+
+# OS
+.DS_Store
+Thumbs.db
